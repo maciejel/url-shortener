@@ -1,0 +1,7 @@
+# Author: maciejel
+# https://maciejel.pl
+# discord: maciejel#9493
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !\.(?:css|js|php|jpe?g|gif|png|eot|ttf|woff|woff2)$ [NC]   
+RewriteRule .* index.php 
